@@ -1,25 +1,23 @@
-
+'use client';
 
 const LoveAndEngagement = ({ data }) => {
-    return (
-      <div className="bg-white py-12">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-gothic font-bold text-center text-#AABBCC mb-4">
-            {data.title}
-          </h1>
-          <h2 className="text-2xl font-semibold text-center text-gray-600 mb-8">
-            {data.subtitle}
-          </h2>
-          <div className="max-w-2xl mx-auto text-center text-gray-700">
-            {data.description.map((paragraph, index) => (
-              <p key={index} className="mb-4">
-                {paragraph}
-              </p>
-            ))}
-          </div>
+  return (
+    <div className="bg-white w-11/12 md:w-4/5 mx-auto mt-12">
+      <div className="container mx-auto px-4">
+        <h1 className="text-3xl text-center text-gray-800 font-bold mb-4 tracking-widest">
+          <span>&#8212;</span> {data.title} <span>&#8212;</span>
+        </h1>
+        <h2 className="text-xl text-center text-gray-500 mb-8 tracking-widest">
+          {data.subtitle}
+        </h2>
+        <div className="mx-auto text-center text-gray-500 text-sm tracking-widest max-w-3xl">
+          {data.description.map((paragraph, index) => (
+            <p key={index} className="mb-4">{paragraph}</p>
+          ))}
         </div>
       </div>
-    );
-  };
-  
-  export default LoveAndEngagement;
+    </div>
+  );
+};
+
+export default LoveAndEngagement;

@@ -2,8 +2,8 @@ export const loveAndEngagementData = {
     title: "Love and Engagement",
     subtitle: "Love, on Display",
     description: [
-      "Diamond rings have become synonymous with love. They represent the everlasting nature of love and celebrate the commitment and promise that comes with eternal love.",
-      "Diamonds have always embodied the spirit of love. They represent the clarity of thought and the commitment to stay strong together through tough times, making them a cut above the rest when celebrating love.",
+      "Diamond rings have become synonymous with love. They represent the everlasting nature of love and celebrate the commitment and promise that comes with eternal love.","Diamonds have always embodied the spirit of love. They represent the clarity of thought and the commitment to stay strong together through tough times, making them a cut above the rest when celebrating love.",
+      
       "Showcase your love for each other through exquisite natural diamonds.",
     ],
   };
