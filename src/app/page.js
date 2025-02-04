@@ -6,7 +6,9 @@ import DashedText from "./Coponents/DashedText";
 export default function Home() {
 	return (
 		<div className="bg-white">
-			<DashedText text="eShop" styles="bg-yellow-700 text-white w-28 px-8 py-2 absolute top-1/2 right-4 transform -translate-y-1/2"/>
+			<DashedText text="eShop" styles="hidden sm:block bg-[#b18846] text-white w-30 px-8 py-2 fixed top-1/2 right-[-40px] transform -translate-y-1/2 rotate-90 shadow-lg hover:bg-white hover:border border-[#b18846] hover:text-gray-500 z-[9999]"/>
+
+
 			<LoveEngagement  data={loveAndEngagementData}/>
 			<Gallery data={GalleryData}/>
 		</div>

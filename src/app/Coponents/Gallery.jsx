@@ -21,7 +21,7 @@ const Gallery = ({ data }) => {
                 src={item.imageUrl}
                 alt={item.title}
                 fill
-                className="object-cover rounded-lg"
+                className="object-cover"
               />
             </div>
 
@@ -32,17 +32,17 @@ const Gallery = ({ data }) => {
               }`}
             >
               <h3 className="text-2xl text-gray-700 text-center mb-4 tracking-widest">
-                <span>&#8212;</span> {item.title} <span>&#8212;</span>
+                <span className="w-24">&#8212;</span> {item.title} <span>&#8212;</span>
               </h3>
               <h4 className="text-lg text-gray-500 text-center mb-4 tracking-widest">
                 {item.subtitle}
               </h4>
-              <p className="text-gray-500 mb-6 text-sm tracking-widest">
+              <p className="text-gray-500 mb-6 text-sm tracking-widest text-center">
                 {item.para}
               </p>
 
              <div className="text-center">
-             <button className="bg-yellow-700  text-white px-8 py-2 rounded-full hover:bg-white hover:text-gray-400 hover:border border-yellow-700 transition duration-300">
+             <button className="bg-[#b18846]  text-white px-8 py-2 rounded-full hover:bg-white hover:text-gray-400 hover:border border-[#b18846] transition duration-300">
                 {item.btntext}
               </button>
              </div>
