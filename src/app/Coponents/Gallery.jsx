@@ -34,7 +34,6 @@ const Gallery = ({ data }) => {
             >
               
               <div className="flex flex-col items-center px-4 ">
-
               <DashedText  text={item.title}/>
               </div>
             

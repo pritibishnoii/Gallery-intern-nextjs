@@ -6,7 +6,7 @@ const LoveAndEngagement = ({ data }) => {
   return (
     <div className="bg-white w-4/5 md:w-4/5 mx-auto mt-12">
       <div className=" flex flex-col items-center px-4">
-        <DashedText  text={data.title}/>
+        <DashedText  text={data.title} />
         <h2 className="text-xl text-center text-gray-500 mb-8 tracking-widest">
           {data.subtitle}
         </h2>
