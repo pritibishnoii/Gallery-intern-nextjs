@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import DashedText from "./DashedText";
 
 const Gallery = ({ data }) => {
   return (
@@ -31,9 +32,12 @@ const Gallery = ({ data }) => {
                 isImageLeft ? "md:order-2" : "md:order-1"
               }`}
             >
-              <h3 className="text-2xl text-gray-700 text-center mb-4 tracking-widest">
-                <span className="w-24">&#8212;</span> {item.title} <span>&#8212;</span>
-              </h3>
+              
+              <div className="flex flex-col items-center px-4 ">
+
+              <DashedText  text={item.title}/>
+              </div>
+            
               <h4 className="text-lg text-gray-500 text-center mb-4 tracking-widest">
                 {item.subtitle}
               </h4>

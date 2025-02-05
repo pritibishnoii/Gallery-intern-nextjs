@@ -15,7 +15,7 @@ const DashedText = ({text,styles}) => {
   sm:after:content-[""] sm:after:h-[1px] sm:after:w-6 sm:after:bg-black sm:after:absolute sm:after:right-0 sm:after:top-[50%] sm:after:translate-x-[140%] sm:after:translate-y-[-50%] ${pathName==='/aasai'?'sm:after:bg-white':'sm:after:bg-black'}
 
   relative ${pathName==='/aasai'?'text-white':'text-black'} text-gray-700 capitalize text-center text-3xl tracking-wider md:max-w-[80%]
-  md:before:w-14 md:after:w-14`}><RiShoppingCart2Fill  className='inline'/>{text} </h4>
+  md:before:w-14 md:after:w-14`}>{text} </h4>
   )
 }
 
